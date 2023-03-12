@@ -1,0 +1,24 @@
+{
+  "name": "shopping-cart-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html store.html team.html",
+    "build": "parcel build index.html store.html team.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sballay8734/shopping-cart-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sballay8734/shopping-cart-project/issues"
+  },
+  "homepage": "https://github.com/sballay8734/shopping-cart-project#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
