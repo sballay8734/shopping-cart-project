@@ -13,6 +13,7 @@ import formatCurrency from './util/formatCurrency'
 let cart = []
 
 export function setUpCart() {
+  cart = loadCart()
   cartItemsContainer.innerHTML = ''
   cartTotal.innerText = ''
   cartItemsCounter.innerText = ''
@@ -98,5 +99,6 @@ function saveCart() {
 
 export function loadCart() {
   const item = localStorage.getItem(LS_PREFIX)
+  console.log(item)
   return JSON.parse(item)
 }
