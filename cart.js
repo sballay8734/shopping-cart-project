@@ -99,6 +99,5 @@ function saveCart() {
 
 export function loadCart() {
   const item = localStorage.getItem(LS_PREFIX)
-  console.log(item)
-  return JSON.parse(item)
+  return JSON.parse(item) || []
 }
